@@ -1,0 +1,12 @@
+<% provide(:title, 'About Us')%>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %>t</title>
+  </head>
+  <body><h1>About Us</h1>
+    <p>
+      This is the about page for the sample app.  Isn't it grand?
+    </p>
+  </body>
+</html>
